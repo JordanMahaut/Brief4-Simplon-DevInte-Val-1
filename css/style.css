@@ -11,6 +11,7 @@ h1{
     font-family: 'Italianno', cursive;
     font-weight: normal;
     margin-top: 20px;
+    margin-left: 10px;
     padding-bottom: 0;
     line-height: 20px;
 }
@@ -25,4 +26,18 @@ h1{
 .map{
     width: 10%;
     height: 10%;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    width: 10px;
+    height: auto;
+    margin: 30px auto;
+}
+
+.grid-item{
+    width: 200px;
+    height: 100px;
 }
