@@ -34,6 +34,7 @@ header p{
     margin: auto;
     left: 0;
     right: 0;
+    top: 10%;
     color: white;
     width: 40%;
 }
@@ -101,12 +102,11 @@ nav div ul{
     width: 20px;
     height: auto;
     margin: 30px 500px;
-    margin: 30px auto;
     padding: 0;
 }
 
 .grid-item{
     width: 200px;
-    height: 100px;
+    height: auto;
     grid-gap: 10px;
 }
