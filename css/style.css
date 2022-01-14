@@ -19,13 +19,6 @@ nav iframe{
     margin-left: 30px;
 }
 
-#tailleur{
-    position:absolute;
-    margin-left: 250px;
-    object-fit: cover;
-    width: 950px;
-    height: 300px;
-}
 header p{
     background: rgba(0, 0, 0, 0.8);
     z-index: 2;
@@ -58,6 +51,7 @@ nav ul{
     padding-top: 10px;
     padding-left: 30px;
 }
+
 nav div ul{
     list-style: none;
     display: flex;
@@ -84,6 +78,7 @@ nav div ul{
     margin-left: 25px;
     justify-items: right;
 }
+
 #img3{
     height: 150px;
     width: 950px;
@@ -96,7 +91,10 @@ nav div ul{
     position: absolute;
     margin-left: 1070px;
     top: 5px;
+
+    object-fit: cover;
 }
+
 #icone{
     max-width: 15px;
     max-height: 20px;
@@ -106,14 +104,14 @@ nav div ul{
 #grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 20px;
-    height: auto;
-    margin: 30px 500px;
+    width: 10px;
+    height: 300px;
+    margin: 30px 400px;
     padding: 0;
 }
 
 .grid-item{
     width: 200px;
-    height: auto;
-    grid-gap: 10px;
+    height: 300px;
+    grid-gap: 4px;
 }
