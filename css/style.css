@@ -13,13 +13,6 @@ nav{
     background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 }
 
-nav img{
-    position:absolute;
-    margin-left: 250px;
-    object-fit: cover;
-    width: 950px;
-    height: 300px;
-}
 
 h1{
     font-family: 'Italianno', cursive;
