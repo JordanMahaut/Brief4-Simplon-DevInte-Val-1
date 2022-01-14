@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap');
 
+header .head{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+}
 nav{
     display: flex;
     flex-direction: column;
@@ -12,7 +17,6 @@ nav{
     padding: 0;
     background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 }
-
 
 h1{
     font-family: 'Italianno', cursive;
