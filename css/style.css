@@ -7,6 +7,15 @@ nav{
     border: solid 1px #999;
     padding-bottom: 0;
 }
+
+nav img{
+    position:absolute;
+    margin-left: 250px;
+    object-fit: cover;
+    width: 950px;
+    height: 300px;
+}
+
 h1{
     font-family: 'Italianno', cursive;
     font-weight: normal;
@@ -20,6 +29,7 @@ h1{
     font-size: 60px;
     font-weight: 500;
 }
+
 .SousTitre{
     font-size: 25px;
 }
@@ -28,16 +38,18 @@ h1{
     height: 10%;
 }
 
+
+
 #grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    max-width: 1200px;
-    width: 10px;
+    width: 20px;
     height: auto;
-    margin: 30px auto;
+    margin: 30px 500px;
 }
 
 .grid-item{
     width: 200px;
     height: 100px;
+    grid-gap: 10px;
 }
