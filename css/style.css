@@ -9,3 +9,17 @@ header {
 h1{
     font-family: 'Italianno', cursive;
 }
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1200px;
+    width: 10px;
+    height: auto;
+    margin: 30px auto;
+}
+
+.grid-item{
+    width: 200px;
+    height: 100px;
+}
