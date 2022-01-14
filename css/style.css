@@ -13,7 +13,7 @@ nav{
     background-image: linear-gradient(top, #accbee 0%, #e7f0fd 100%);
 }
 
-header img{
+#tailleur{
     position:absolute;
     margin-left: 250px;
     object-fit: cover;
