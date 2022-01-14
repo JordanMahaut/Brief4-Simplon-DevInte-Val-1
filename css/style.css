@@ -83,7 +83,12 @@ nav div ul{
     justify-items: right;
     
 }
-
+#img3{
+    height: 150px;
+    width: 950px;
+    margin-left: 222px;
+    object-fit: cover;
+}
 #icone{
     max-width: 20px;
     max-height: 20px;
