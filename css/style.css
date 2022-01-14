@@ -12,6 +12,15 @@ nav{
     padding: 0;
     background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 }
+
+nav img{
+    position:absolute;
+    margin-left: 250px;
+    object-fit: cover;
+    width: 950px;
+    height: 300px;
+}
+
 h1{
     font-family: 'Italianno', cursive;
     font-weight: normal;
@@ -37,6 +46,7 @@ nav div ul{
     font-size: 60px;
     font-weight: 500;
 }
+
 .SousTitre{
     font-size: 25px;
 }
@@ -61,9 +71,9 @@ nav div ul{
 #grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    max-width: 1200px;
-    width: 10px;
+    width: 20px;
     height: auto;
+    margin: 30px 500px;
     margin: 30px auto;
     padding: 0;
 }
@@ -71,4 +81,5 @@ nav div ul{
 .grid-item{
     width: 200px;
     height: 100px;
+    grid-gap: 10px;
 }
