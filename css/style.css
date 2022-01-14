@@ -6,7 +6,11 @@ header .head{
     flex-direction: row;
     height: 250px;
 }
+header {
+    background-image: linear-gradient(top, #accbee 0%, #e7f0fd 100%);
+}
 nav{
+    position: fixed;
     display: flex;
     flex-direction: column;
     width: 250px;
@@ -15,7 +19,6 @@ nav{
     padding-bottom: 0;
     font-family: 'Amiri', serif;
     padding: 0;
-    background-image: linear-gradient(top, #accbee 0%, #e7f0fd 100%);
 }
 
 #tailleur{
