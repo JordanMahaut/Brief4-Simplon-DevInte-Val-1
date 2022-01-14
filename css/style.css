@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 
-header {
+nav{
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 250px;
     border: solid 1px #999;
     padding-bottom: 0;
 }
