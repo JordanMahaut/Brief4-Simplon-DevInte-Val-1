@@ -95,7 +95,7 @@ nav div ul{
 #grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 10px;
+    width: 200px;
     height: 300px;
     margin: 30px 400px;
     padding: 0;
