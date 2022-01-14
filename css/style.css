@@ -28,6 +28,18 @@ nav{
     width: 950px;
     height: 300px;
 }
+header p{
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: auto;
+    left: 0;
+    right: 0;
+    color: white;
+    width: 40%;
+}
 
 h1{
     font-family: 'Italianno', "cursive";
