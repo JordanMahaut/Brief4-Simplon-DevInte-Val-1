@@ -115,3 +115,7 @@ nav div ul{
     height: 300px;
     grid-gap: 4px;
 }
+
+.article_propos{
+    margin: auto 250px;
+}
