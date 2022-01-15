@@ -117,6 +117,12 @@ nav div ul{
     grid-gap: 4px;
 }
 
+.grid-item img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
 .article_propos{
     margin: auto 250px;
 }
