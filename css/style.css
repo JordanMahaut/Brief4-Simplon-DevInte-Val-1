@@ -113,6 +113,7 @@ nav div ul{
 .grid-item{
     width: 200px;
     height: 300px;
+    object-fit: cover;
     grid-gap: 4px;
 }
 
