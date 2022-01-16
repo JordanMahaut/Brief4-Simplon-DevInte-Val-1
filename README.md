@@ -28,10 +28,10 @@ Technologie web :
 
 - Passage au validateur sans erreurs.
 - Utilisation du HTML sémantique.
-- Utilisation de SASS et respect du modèle 7-1
 - Code correctement présenté (Indentation)
 - Utilisation d'un boilerplate
 - Utilisation d'animations CSS
+
 Maquettage :
 
 - Wireframe livré en en version responsive.

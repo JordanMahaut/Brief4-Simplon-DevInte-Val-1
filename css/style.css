@@ -81,7 +81,7 @@ nav div ul{
 
 #img3{
     height: 150px;
-    width: 950px;
+    width: 1170px;
     margin-left: 222px;
     object-fit: cover
 }
@@ -109,10 +109,22 @@ nav div ul{
     height: 300px;
     margin: 30px 400px;
     padding: 0;
+    grid-gap: 20px;
 }
 
 .grid-item{
     width: 200px;
     height: 300px;
+    object-fit: cover;
     grid-gap: 4px;
+}
+
+.grid-item img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.article_propos{
+    margin: auto 250px;
 }
