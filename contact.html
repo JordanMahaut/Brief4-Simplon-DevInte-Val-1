@@ -23,49 +23,108 @@
 </head>
 
 <body>
-        <nav>
-            <h1>
-                <span class="Titre">Ducsman</span> <br>
-                <span class="SousTitre">Sapé comme jamais. </span>
-            </h1>
+    <nav>
+        <h1>
+            <span class="Titre">Ducsman</span> <br>
+            <span class="SousTitre">Sapé comme jamais. </span>
+        </h1>
 
+        <ul>
+            <li><a href="boutique.html">Boutique</a></li>
+            <li><a href="apropos.html">A propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#SAV">SAV</a></li>
+        </ul>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.8058898406402!2d2.3436525159575536!3d48.86191175841242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e18a5f84801%3A0x6eb5daa624bdebd2!2sHalles%20de%20Paris%2C%2075001%20Paris!5e0!3m2!1sfr!2sfr!4v1642163332207!5m2!1sfr!2sfr"
+            width="125" height="100" style="border:10;" allowfullscreen="" loading="lazy"></iframe>
+
+        <div class="logo">
             <ul>
-                <li><a href="boutique.html">Boutique</a></li>
-                <li><a href="apropos.html">A propos</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="#SAV">SAV</a></li>
+                <li><a href="https://www.instagram.com/?hl=fr" target="_Blank"><img src="img/instagram_icon.png"
+                            id="icone"></a></li>
+                <li><a href="https://fr-fr.facebook.com/" target="_Blank"><img src="img/facebook_icon.png"
+                            id="icone"></a></li>
+                <li><a href="https://twitter.com/?lang=fr" target="_Blank"><img src="img/twitter_icon.png"
+                            id="icone"></a></li>
             </ul>
+        </div>
 
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.8058898406402!2d2.3436525159575536!3d48.86191175841242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e18a5f84801%3A0x6eb5daa624bdebd2!2sHalles%20de%20Paris%2C%2075001%20Paris!5e0!3m2!1sfr!2sfr!4v1642163332207!5m2!1sfr!2sfr"
-                width="125" height="100" style="border:10;" allowfullscreen="" loading="lazy"></iframe>
+    </nav>
 
-            <div class="logo">
-                <ul>
-                    <li><a href="https://www.instagram.com/?hl=fr" target="_Blank"><img src="img/instagram_icon.png"
-                                id="icone"></a></li>
-                    <li><a href="https://fr-fr.facebook.com/" target="_Blank"><img src="img/facebook_icon.png"
-                                id="icone"></a></li>
-                    <li><a href="https://twitter.com/?lang=fr" target="_Blank"><img src="img/twitter_icon.png"
-                                id="icone"></a></li>
-                </ul>
-            </div>
+    <header>
+        <div>
+            <img src="img/Image_lorem.jpg" alt="" id="img3">
+        </div>
+        <div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia quasi, nesciunt quis, soluta quae
+                aperiam voluptatum itaque excepturi eveniet aliquam, ex ab consequatur rem saepe. Fugit suscipit soluta
+                nulla itaque?</p>
+        </div>
+        <div>
+            <img src="img/panier.png" alt="" id="img4">
+        </div>
+    </header>
 
-        </nav>
+    <section class="contact">
+        <div class="form">
+            <h2>Contact :</h2>
 
-        <header>
-            <div>
-                <img src="img/Image_lorem.jpg" alt="" id="img3">
-            </div>
-            <div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia quasi, nesciunt quis, soluta quae aperiam voluptatum itaque excepturi eveniet aliquam, ex ab consequatur rem saepe. Fugit suscipit soluta nulla itaque?</p>
-            </div>
-            <div>
-                <img src="img/panier.png" alt="" id="img4">
-            </div>
-        </header>
+            <form>
+                <div class="genre">
+                    <input type="radio" name="genre" value="Femme">
+                    <label>Femme</label>
+                    <input type="radio" name="genre" value="Homme">
+                    <label>Homme</label>
+                    <input type="radio" name="genre" value="Autre">
+                    <label>Autre</label>
+                </div>
 
+                <div>
+                    <label>Nom :</label>
+                    <input type="text" required>
+                    <label>Prénom :</label>
+                    <input type="text" required>
+                </div>
 
+                <div>
+                    <label>Adresse :</label>
+                    <input type="text" placeholder="Votre adresse postale" size="50" required>
+                </div>
+
+                <div>
+                    <label>Ville :</label>
+                    <input type="text" required>
+                    <label>Code postale :</label>
+                    <input type="text" placeholder="Exemple : 59600" pattern="[0-9]{5}" required>
+                </div>
+
+                <div>
+                    <label>Numéro de téléphone :</label>
+                    <input type="tel" pattern="[0-9]{2}.[0-9]{2}.[0-9]{2}.[0-9]{2}.[0-9]{2}"
+                        placeholder="00.00.00.00.00">
+                </div>
+
+                <div>
+                    <label>Adresse mail :</label>
+                    <input type="email" pattern=".+@globex\.com" size="30" placeholder="exemple@exemple.com" required>
+                </div>
+
+                <div>
+                    <label id="story">Message :</label>
+
+                    <textarea id="story" name="story" rows="5" cols="33">
+                    Ecrivez votre message :
+                    </textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Envoyer le formulaire">
+                </div>
+            </form>
+        </div>
+    </section>
 </body>
 
 </html>
