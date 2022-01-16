@@ -108,6 +108,7 @@ nav div ul{
     height: 300px;
     margin: 30px 400px;
     padding: 0;
+    grid-gap: 20px;
 }
 
 .grid-item{
