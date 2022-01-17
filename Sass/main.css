@@ -129,8 +129,7 @@ header p {
 #grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   width: 10px;
   height: 300px;
   margin: 30px 400px;
