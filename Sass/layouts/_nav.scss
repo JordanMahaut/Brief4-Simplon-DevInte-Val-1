@@ -11,7 +11,7 @@ nav {
     background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 
         iframe{
-            margin-left: 30px;
+            margin-bottom: 35px;
         }
 
         div ul{
@@ -20,32 +20,33 @@ nav {
             flex-direction: row;
         }
         ul{
+            font-size: 35px;
             list-style: none;
             display: flex;
             flex-direction: column;
             margin-top: 0;
-            padding-top: 10px;
+            padding-top: 20px;
             padding-left: 30px;
         }
     }
 
 .Titre{
-    font-size: 60px;
+    font-size: 58px;
     font-weight: 500;
 }
 .SousTitre {
-    font-size: 25px;
+    font-size: 40px;
 }
 
-.map {
-    width: 10%;
-    height: 10%;
+#map {
+    width: 98%;
+    height: 500%;
 }
 
 .logo {
     display: flex;
-    margin-top: 5px;
-    margin-left: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     justify-items: right;
 }
 
@@ -66,7 +67,7 @@ nav {
 }
 
 #icone {
-    max-width: 15px;
-    max-height: 20px;
+    max-width: 50px;
+    max-height: 100px;
     padding: 0px 5px;
 }

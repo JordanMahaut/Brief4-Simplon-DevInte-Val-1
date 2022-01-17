@@ -8,13 +8,25 @@ h1 {
   margin-left: 10px;
   padding-bottom: 0;
   line-height: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Italianno', "cursive";
+  font-weight: normal;
+  margin-top: 20px;
+  margin-left: 10px;
+  padding-bottom: 0;
+  line-height: 20px;
   margin-bottom: 2px;
+  font-size: 50px;
 }
 
 body {
   margin: 0;
   padding: 0;
   position: fixed;
+  font-family: 'Maitree', serif;
 }
 
 nav {
@@ -37,7 +49,7 @@ nav {
 }
 
 nav iframe {
-  margin-left: 30px;
+  margin-bottom: 35px;
 }
 
 nav div ul {
@@ -52,6 +64,7 @@ nav div ul {
 }
 
 nav ul {
+  font-size: 35px;
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -61,30 +74,30 @@ nav ul {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-top: 0;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-left: 30px;
 }
 
 .Titre {
-  font-size: 60px;
+  font-size: 58px;
   font-weight: 500;
 }
 
 .SousTitre {
-  font-size: 25px;
+  font-size: 40px;
 }
 
-.map {
-  width: 10%;
-  height: 10%;
+#map {
+  width: 98%;
+  height: 500%;
 }
 
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 5px;
-  margin-left: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   justify-items: right;
 }
 
@@ -107,8 +120,8 @@ nav ul {
 }
 
 #icone {
-  max-width: 15px;
-  max-height: 20px;
+  max-width: 50px;
+  max-height: 100px;
   padding: 0px 5px;
 }
 
@@ -129,7 +142,8 @@ header p {
 #grid {
   display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
   width: 10px;
   height: 300px;
   margin: 30px 400px;
@@ -165,6 +179,9 @@ header p {
       -ms-flex-direction: row;
           flex-direction: row;
   padding-left: 0 5px;
+  margin-left: 250px;
+  gap: 10px;
+  margin-top: 10px;
 }
 
 section div {
@@ -175,15 +192,18 @@ section div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-left: 450px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 170px;
 }
 
 .form {
   border: solid 1px black;
   width: 700px;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#accbee), to(#e7f0fd));
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 }
 
 #text {
@@ -211,8 +231,64 @@ textarea {
           box-shadow: 1px 1px 1px #999;
 }
 
-label {
-  display: block;
-  margin-bottom: 10px;
+.genre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-left: 0 5px;
+  margin-left: 250px;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+section div {
+  margin-bottom: 20px;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 170px;
+}
+
+.form {
+  border: solid 1px black;
+  width: 700px;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#accbee), to(#e7f0fd));
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+}
+
+#text {
+  height: 200px;
+}
+
+label,
+textarea {
+  font-size: .8rem;
+  letter-spacing: 1px;
+  max-width: 300px;
+  max-height: 100px;
+  outline: none;
+}
+
+textarea {
+  padding: 10px;
+  width: 300px;
+  height: 100px;
+  resize: none;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 1px 1px 1px #999;
+          box-shadow: 1px 1px 1px #999;
 }
 /*# sourceMappingURL=main.css.map */
