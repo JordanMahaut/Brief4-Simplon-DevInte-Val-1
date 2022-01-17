@@ -126,6 +126,37 @@ header p {
   width: 40%;
 }
 
+#grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  width: 10px;
+  height: 300px;
+  margin: 30px 400px;
+  padding: 0;
+  grid-gap: 20px;
+}
+
+.grid-item {
+  width: 200px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  grid-gap: 4px;
+}
+
+.grid-item img {
+  width: 200px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.article_propos {
+  margin: auto 250px;
+}
+
 .genre {
   display: -webkit-box;
   display: -ms-flexbox;

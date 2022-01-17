@@ -1,0 +1,26 @@
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 10px;
+    height: 300px;
+    margin: 30px 400px;
+    padding: 0;
+    grid-gap: 20px;
+}
+
+.grid-item {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    grid-gap: 4px;
+
+    img {
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+.article_propos {
+    margin: auto 250px;
+}
