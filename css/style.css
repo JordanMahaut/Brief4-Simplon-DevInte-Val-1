@@ -56,6 +56,12 @@ nav div ul {
     flex-direction: row;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+
 .Titre {
     font-size: 60px;
     font-weight: 500;
@@ -79,7 +85,7 @@ nav div ul {
 
 #img3 {
     height: 150px;
-    width: 100%;
+    width: 1920px;
     margin-left: 222px;
     object-fit: cover
 }
