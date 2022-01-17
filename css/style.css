@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap');
-
-
-nav{
+nav {
     position: fixed;
     display: flex;
     flex-direction: column;
@@ -15,11 +13,11 @@ nav{
     background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 }
 
-nav iframe{
+nav iframe {
     margin-left: 30px;
 }
 
-header p{
+header p {
     background: rgba(0, 0, 0, 0.8);
     z-index: 2;
     position: absolute;
@@ -33,7 +31,7 @@ header p{
     width: 40%;
 }
 
-h1{
+h1 {
     font-family: 'Italianno', "cursive";
     font-weight: normal;
     margin-top: 20px;
@@ -43,7 +41,7 @@ h1{
     margin-bottom: 2px;
 }
 
-nav ul{
+nav ul {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -52,80 +50,86 @@ nav ul{
     padding-left: 30px;
 }
 
-nav div ul{
+nav div ul {
     list-style: none;
     display: flex;
     flex-direction: row;
 }
 
-.Titre{
+.Titre {
     font-size: 60px;
     font-weight: 500;
 }
 
-.SousTitre{
+.SousTitre {
     font-size: 25px;
 }
 
-.map{
+.map {
     width: 10%;
     height: 10%;
 }
 
-.logo{
+.logo {
     display: flex;
     margin-top: 5px;
     margin-left: 25px;
     justify-items: right;
 }
 
-#img3{
+#img3 {
     height: 150px;
-    width: 1170px;
+    width: 100%;
     margin-left: 222px;
     object-fit: cover
 }
-#img4{
+
+#img4 {
     height: 20px;
     width: 20px;
     position: absolute;
     margin-left: 1070px;
     top: 5px;
-
     object-fit: cover;
-
 }
 
-#icone{
+#icone {
     max-width: 15px;
     max-height: 20px;
-    padding: 0px 5px ;
+    padding: 0px 5px;
 }
-.genre{
+
+.genre {
     display: flex;
     flex-direction: row;
     padding-left: 0 5px;
 }
-section div{
+
+section div {
     margin-bottom: 20px;
 }
-.contact{
+
+.contact {
     display: flex;
     align-items: center;
     margin-left: 450px;
 }
-.form{
+
+.form {
     border: solid 1px black;
     width: 700px;
 }
-#text{
+
+#text {
     height: 200px;
 }
+
 label,
 textarea {
     font-size: .8rem;
     letter-spacing: 1px;
 }
+
 textarea {
     padding: 10px;
     max-width: 100%;
@@ -140,7 +144,7 @@ label {
     margin-bottom: 10px;
 }
 
-#grid{
+#grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 10px;
@@ -150,19 +154,19 @@ label {
     grid-gap: 20px;
 }
 
-.grid-item{
+.grid-item {
     width: 200px;
     height: 300px;
     object-fit: cover;
     grid-gap: 4px;
 }
 
-.grid-item img{
+.grid-item img {
     width: 200px;
     height: 300px;
     object-fit: cover;
 }
 
-.article_propos{
+.article_propos {
     margin: auto 250px;
 }
