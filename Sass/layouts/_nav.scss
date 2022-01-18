@@ -1,5 +1,3 @@
-
-
 .Titre {
     font-size: 58px;
     font-weight: 500;
@@ -11,7 +9,7 @@
 
 #map {
     width: 98%;
-    height: 500%;
+    height: 500px;
 }
 
 .logo {
@@ -19,6 +17,8 @@
     margin-top: 50px;
     margin-bottom: 50px;
     justify-items: right;
+    display: flex;
+    flex-direction: row;
 }
 
 #img3 {
@@ -43,131 +43,115 @@
     display: flex;
     flex-direction: row;
 }
-#menuToggle
-{
-  display: block;
+.m-menu {
   position: fixed;
-  top: 50px;
-  left: 50px;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  pointer-events: none;
+  margin: 0;
+  padding: 0;
   
+}
+
+.m-menu__backdrop {
   z-index: 1;
-  
-  -webkit-user-select: none;
-  user-select: none;
-}
-
-#menuToggle a
-{
-  text-decoration: none;
-  color: #232323;
-  
-  transition: color 0.3s ease;
-}
-
-#menuToggle a:hover
-{
-  color: tomato;
-}
-
-
-#menuToggle input
-{
-  display: block;
-  width: 40px;
-  height: 32px;
-  position: absolute;
-  top: -7px;
-  left: -5px;
-  
-  cursor: pointer;
-  
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
-  
-  -webkit-touch-callout: none;
-}
-
-/*
- * Just a quick hamburger
- */
-#menuToggle span
-{
-  display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 5px;
-  position: relative;
-  
-  background: #000000;
-  border-radius: 3px;
-  
-  z-index: 1;
-  
-  transform-origin: 4px 0px;
-  
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
-}
-
-#menuToggle span:first-child
-{
-  transform-origin: 0% 0%;
-}
-
-#menuToggle span:nth-last-child(2)
-{
-  transform-origin: 0% 100%;
-}
-
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
-#menuToggle input:checked ~ span
-{
-  opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
-}
-
-#menuToggle input:checked ~ span:nth-last-child(3)
-{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
   opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
+  transition: opacity 500ms ease-out;
+  pointer-events: none;
 }
 
-#menuToggle input:checked ~ span:nth-last-child(2)
-{
-  transform: rotate(-45deg) translate(0, -1px);
-}
-
-#menu
-{
+.m-menu__burger {
+  z-index: 2;
   position: absolute;
-  width: 300px;
-  
-  margin: -100px 0 0 -50px;
-  padding: 50px;
-  padding-top: 125px;
-  
-  background: #ededed;
-  list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  
-  transform-origin: 0% 0%;
-  transform: translate(-100%, 0);
-  
+  width: 4rem;
+  height: 4rem;
+  top: 1.1rem;
+  left: 1.1rem;
+  padding: 0.6rem 0.4rem;
+}
+
+.m-menu__burger span,
+.m-menu__burger span::before,
+.m-menu__burger span::after {
+  content: '';
+  display: block;
+  width: 3.2rem;
+  height: 0.4rem;
+  position: absolute;
+  margin-top: 1.2rem;
+  background: rgb(0, 0, 0);
+  border-radius: 0.3rem;
+}
+
+.m-menu__burger span::before {
+  margin-top: -0.8rem;
+}
+
+.m-menu__burger span::after {
+  margin-top: 0.8rem;
+}
+
+.m-menu__toggle {
+  z-index: 3;
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+  top: 1.1rem;
+  left: 1.1rem;
+  cursor: pointer;
+  opacity: 0;
+  outline: 1px solid black;
+  pointer-events: all;
+}
+
+.m-menu__content {
+  z-index: 4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  width: 30rem;
+  height: 100vh;
+  margin: 0;
+  padding: 0 0 2rem 0;
+  background: rgba(230, 230, 230, 1);
+  transform-origin: 0 0;
+  transform: translateX(-31.5rem);
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  pointer-events: all;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.75);
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 }
 
-#menu li
-{
-  padding: 10px 0;
-  font-size: 22px;
+.m-menu__toggle:checked {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 
-#menuToggle input:checked ~ ul
-{
+.m-menu__toggle:checked ~ .m-menu__content {
   transform: none;
+}
+
+.m-menu__toggle:checked ~ .m-menu__backdrop {
+  opacity: 1;
+}
+.m-menu__content{
+  ul{
+    font-size: 30px;
+    li{
+      list-style: none;
+    }
+  }
 }
