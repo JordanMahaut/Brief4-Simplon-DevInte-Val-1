@@ -140,6 +140,13 @@ header p {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.grid-item p {
+  background-color: white;
+  color: black;
+  text-align: right;
+  margin: auto;
+  top: 60%;
+}
 
 .article_propos {
   margin: auto 250px;
