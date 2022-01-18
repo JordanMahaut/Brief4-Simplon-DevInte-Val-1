@@ -117,6 +117,20 @@ header p {
   width: 40%;
 }
 
+.article_propos {
+  text-align: center;
+}
+.article_propos h1 {
+  font-size: 60px;
+  margin-top: 50px;
+}
+.article_propos h2 {
+  margin-top: 50px;
+}
+.article_propos p {
+  margin-top: 30px;
+}
+
 #grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
