@@ -162,15 +162,10 @@ section div {
 
 .contact {
   display: flex;
-<<<<<<< HEAD
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 170px;
-=======
-  align-items: center;
-  margin-left: 450px;
->>>>>>> 85f26e97cb0ed795f5e1aec72114ab09a2638c7a
 }
 
 .form {
@@ -205,7 +200,6 @@ textarea {
   box-shadow: 1px 1px 1px #999;
 }
 
-<<<<<<< HEAD
 .genre {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -267,9 +261,3 @@ textarea {
           box-shadow: 1px 1px 1px #999;
 }
 /*# sourceMappingURL=main.css.map */
-=======
-label {
-  display: block;
-  margin-bottom: 10px;
-}
->>>>>>> 85f26e97cb0ed795f5e1aec72114ab09a2638c7a
