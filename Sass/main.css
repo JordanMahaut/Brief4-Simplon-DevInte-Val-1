@@ -147,6 +147,8 @@ header p {
      object-fit: cover;
   grid-gap: 4px;
   border: 1px solid black;
+  border-radius: 3px;
+  box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
 }
 .grid-item img {
   width: 200px;
