@@ -49,12 +49,9 @@ body {
   display: flex;
   margin-top: 50px;
   margin-bottom: 50px;
-  justify-items: right;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 #img3 {
@@ -68,7 +65,7 @@ body {
   height: 20px;
   width: 20px;
   position: absolute;
-  margin-left: 1890px;
+  margin-left: 1870px;
   top: 5px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -78,13 +75,6 @@ body {
   max-width: 50px;
   max-height: 100px;
   padding: 0px 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
 }
 
 .m-menu {

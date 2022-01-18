@@ -16,9 +16,7 @@
     display: flex;
     margin-top: 50px;
     margin-bottom: 50px;
-    justify-items: right;
-    display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
 
 #img3 {
@@ -31,7 +29,7 @@
     height: 20px;
     width: 20px;
     position: absolute;
-    margin-left: 1890px;
+    margin-left: 1870px;
     top: 5px;
     object-fit: cover;
 }
@@ -40,8 +38,6 @@
     max-width: 50px;
     max-height: 100px;
     padding: 0px 5px;
-    display: flex;
-    flex-direction: row;
 }
 .m-menu {
   position: fixed;
