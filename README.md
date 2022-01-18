@@ -47,3 +47,9 @@ Présentation orale :
 ## Modalité d'évaluation
 
 - Soutenance
+
+## L'équipe
+
+- Chef de projet: Jordan Mahaut
+- Développeur Intégrateur d'Application Web: Alexandre Maurin
+- Développeur Intégrateur d'Application Web: Bastian Olivier
