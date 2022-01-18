@@ -9,31 +9,30 @@ nav {
     font-family: 'Amiri', serif;
     padding: 0;
     background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
-
-        iframe{
-            margin-bottom: 35px;
-        }
-
-        div ul{
-            list-style: none;
-            display: flex;
-            flex-direction: row;
-        }
-        ul{
-            font-size: 35px;
-            list-style: none;
-            display: flex;
-            flex-direction: column;
-            margin-top: 0;
-            padding-top: 20px;
-            padding-left: 30px;
-        }
+    iframe {
+        margin-bottom: 35px;
     }
+    div ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+    }
+    ul {
+        font-size: 35px;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+}
 
-.Titre{
+.Titre {
     font-size: 58px;
     font-weight: 500;
 }
+
 .SousTitre {
     font-size: 40px;
 }
@@ -72,8 +71,6 @@ nav {
     padding: 0px 5px;
 }
 
-@media screen and (max-width: 980px){
-    
-}
+@media screen and (max-width: 980px) {}
 
 @import "responsive.scss"
