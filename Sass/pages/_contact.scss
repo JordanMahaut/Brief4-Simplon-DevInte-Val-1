@@ -80,4 +80,20 @@ textarea {
         width: 300px;
         gap: 5px;
     }
+    .Msg{
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+        width: 200px;
+        gap: 5px;
+    }
+    .form{
+        width: 370px;
+    }
+
+    article {
+        div{
+            margin-bottom: 5px;
+        }
+    }
 }
