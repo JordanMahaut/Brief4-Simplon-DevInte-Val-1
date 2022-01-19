@@ -28,7 +28,8 @@ html {
     scroll-behavior: smooth;
 }
 
-@media (min-width: 320px) and (max-width: 500px){
+@media (min-width: 500px) and (max-width: 890px){
+
    header p{
      height: 40vh;
      width: 60%;
@@ -36,7 +37,3 @@ html {
      top: 1%;
    }
  }
-
-html {
-   scroll-behavior: smooth;
-}
