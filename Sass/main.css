@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Maitree:wght@300&display=swap");
 h1 {
-  font-family: 'Italianno', "cursive";
+  font-family: "Italianno", "cursive";
   font-weight: normal;
   margin-top: 20px;
   margin-left: 10px;
@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Italianno', "cursive";
+  font-family: "Italianno", "cursive";
   font-weight: normal;
   margin-top: 20px;
   margin-left: 10px;
@@ -26,7 +26,7 @@ h2 {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Maitree', serif;
+  font-family: "Maitree", serif;
   overflow-x: hidden;
 }
 
@@ -45,14 +45,10 @@ body {
 }
 
 .logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 50px;
   margin-bottom: 50px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 #img3 {
@@ -99,7 +95,6 @@ body {
   height: 100%;
   background-color: rgba(255, 255, 255, 0.5);
   opacity: 0;
-  -webkit-transition: opacity 500ms ease-out;
   transition: opacity 500ms ease-out;
   pointer-events: none;
 }
@@ -117,7 +112,7 @@ body {
 .m-menu__burger span,
 .m-menu__burger span::before,
 .m-menu__burger span::after {
-  content: '';
+  content: "";
   display: block;
   width: 3.2rem;
   height: 0.4rem;
@@ -159,18 +154,11 @@ body {
   margin: 0;
   padding: 0 0 2rem 0;
   background: #e6e6e6;
-  -webkit-transform-origin: 0 0;
-          transform-origin: 0 0;
-  -webkit-transform: translateX(-31.5rem);
-          transform: translateX(-31.5rem);
-  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-  transition: -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+  transform-origin: 0 0;
+  transform: translateX(-31.5rem);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   pointer-events: all;
-  -webkit-box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.75);
-          box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.75);
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#accbee), to(#e7f0fd));
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.75);
   background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 }
 
@@ -183,8 +171,7 @@ body {
 }
 
 .m-menu__toggle:checked ~ .m-menu__content {
-  -webkit-transform: none;
-          transform: none;
+  transform: none;
 }
 
 .m-menu__toggle:checked ~ .m-menu__backdrop {
@@ -194,7 +181,6 @@ body {
 .m-menu__content ul {
   font-size: 30px;
 }
-
 .m-menu__content ul li {
   list-style: none;
 }
@@ -204,7 +190,7 @@ header p {
   z-index: 2;
   position: absolute;
   text-align: center;
-  font-family: 'Maitree', serif;
+  font-family: "Maitree", serif;
   margin: auto;
   left: 0;
   right: 0;
@@ -229,28 +215,35 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (min-width: 320px) and (max-width: 500px) {
+  header p {
+    height: 40vh;
+    width: 60%;
+    height: 130px;
+    top: 1%;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
 .article_propos {
   text-align: center;
 }
-
 .article_propos h1 {
   font-size: 60px;
   margin-top: 50px;
 }
-
 .article_propos h2 {
   margin-top: 50px;
 }
-
 .article_propos p {
   margin-top: 30px;
 }
 
 #grid {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   padding: 0;
   grid-gap: 20px;
   max-width: 1200px;
@@ -262,17 +255,14 @@ html {
      object-fit: cover;
   border: 1px solid black;
   border-radius: 3px;
-  -webkit-box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
-          box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
 }
-
 .grid-item img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 .grid-item p {
   background-color: white;
   color: black;
@@ -285,14 +275,16 @@ html {
   margin: auto 250px;
 }
 
+@media (min-width: 320px) and (max-width: 500px) {
+  #grid {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 .genre {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   padding-left: 0 5px;
   margin-left: 250px;
   gap: 10px;
@@ -304,12 +296,8 @@ section div {
 }
 
 .contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-top: 170px;
 }
 
@@ -317,7 +305,6 @@ section div {
   border: solid 1px black;
   width: 700px;
   text-align: center;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#accbee), to(#e7f0fd));
   background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 }
 
@@ -327,7 +314,7 @@ section div {
 
 label,
 textarea {
-  font-size: .8rem;
+  font-size: 0.8rem;
   letter-spacing: 1px;
   max-width: 300px;
   max-height: 100px;
@@ -342,18 +329,12 @@ textarea {
   line-height: 1.5;
   border-radius: 5px;
   border: 1px solid #ccc;
-  -webkit-box-shadow: 1px 1px 1px #999;
-          box-shadow: 1px 1px 1px #999;
+  box-shadow: 1px 1px 1px #999;
 }
 
 .genre {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   padding-left: 0 5px;
   margin-left: 250px;
   gap: 10px;
@@ -365,12 +346,8 @@ section div {
 }
 
 .contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-top: 170px;
 }
 
@@ -378,7 +355,6 @@ section div {
   border: solid 1px black;
   width: 700px;
   text-align: center;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#accbee), to(#e7f0fd));
   background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 }
 
@@ -388,7 +364,7 @@ section div {
 
 label,
 textarea {
-  font-size: .8rem;
+  font-size: 0.8rem;
   letter-spacing: 1px;
   max-width: 300px;
   max-height: 100px;
@@ -403,6 +379,5 @@ textarea {
   line-height: 1.5;
   border-radius: 5px;
   border: 1px solid #ccc;
-  -webkit-box-shadow: 1px 1px 1px #999;
-          box-shadow: 1px 1px 1px #999;
+  box-shadow: 1px 1px 1px #999;
 }
