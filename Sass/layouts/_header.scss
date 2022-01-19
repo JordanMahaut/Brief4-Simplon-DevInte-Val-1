@@ -5,7 +5,7 @@ header p {
     text-align: center;
     font-family: 'Maitree', serif;
     margin: auto;
-    left: 55%;
+    left: 5%;
     right: 0;
     top: 5%;
     color: white;
@@ -33,9 +33,20 @@ html {
    header p{
      height: 40vh;
      width: 60%;
-     height: 110px;
-     margin-right: 50px;
-     top: 1%;
+     height: 75px;
+     margin-right: 150px;
+     top: 5%;
      font-size: 15px;
    }
+ }
+
+ @media (min-width: 320px) and (max-width: 500px){
+    header p{
+        height: 40vh;
+        width: 60%;
+        height: 105px;
+        margin-right: 110px;
+        top: 4%;
+        font-size: 15px;
+      }
  }
