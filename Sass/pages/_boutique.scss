@@ -48,7 +48,31 @@
     #grid{
         display: grid;
         grid-template-rows: auto;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
+    .grid-item{
+
+        p{
+        background-color: white;
+        color: black;
+        position: relative;
+        bottom: 430px;
+        left: 160px;
+        width: 70px;
+        font-size: 20px;
+        }
+
+        #laine{
+            background-color: white;
+            color: black;
+            text-align: right;
+            position: relative;
+            bottom: 120px;
+            left: 1px;
+            width: 75px;
+            font-size: 20px;
+        }
+
+    }
 }
