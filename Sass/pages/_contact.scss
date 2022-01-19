@@ -1,5 +1,5 @@
 
-section div {
+article div {
     margin-bottom: 20px;
 }
 
@@ -60,6 +60,13 @@ textarea {
         gap: 5px;
     }
     .Ville{
+        display: flex;
+        flex-direction: column;
+        margin-left: 250px;
+        width: 200px;
+        gap: 5px;
+    }
+    .Tel{
         display: flex;
         flex-direction: column;
         margin-left: 250px;

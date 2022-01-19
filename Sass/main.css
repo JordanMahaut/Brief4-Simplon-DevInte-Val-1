@@ -306,8 +306,13 @@ section {
           flex-direction: column;
   border: 3px solid #303030;
   padding: 5px;
+<<<<<<< HEAD
   -webkit-box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
           box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
+=======
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+>>>>>>> bf2998b1b157b9b779c93a94e28521ea4884cae8
   border-radius: 5px;
 }
 
@@ -366,8 +371,13 @@ section {
   z-index: 5;
   font-size: 35px;
   color: #303030;
+<<<<<<< HEAD
   -webkit-box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
           box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
+=======
+  -webkit-box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+          box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+>>>>>>> bf2998b1b157b9b779c93a94e28521ea4884cae8
 }
 
 header a {
@@ -384,7 +394,11 @@ header a {
   padding: 6px;
 }
 
+<<<<<<< HEAD
 section div {
+=======
+article div {
+>>>>>>> bf2998b1b157b9b779c93a94e28521ea4884cae8
   margin-bottom: 20px;
 }
 
@@ -460,6 +474,18 @@ textarea {
     gap: 5px;
   }
   .Ville {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 250px;
+    width: 200px;
+    gap: 5px;
+  }
+  .Tel {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
