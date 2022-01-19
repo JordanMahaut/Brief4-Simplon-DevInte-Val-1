@@ -429,6 +429,7 @@ textarea {
             flex-direction: column;
     margin-left: 200px;
     width: 300px;
+    gap: 5px;
   }
   .Ville {
     display: -webkit-box;
