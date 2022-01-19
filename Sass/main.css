@@ -273,6 +273,7 @@ html {
     width: 200px;
   }
 }
+
 section {
   width: 70%;
   max-width: 100%;
@@ -285,24 +286,34 @@ section {
 .cards {
   width: 100%;
   height: 100%;
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
   gap: 50px;
 }
 
 .cards .item {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   height: 100%;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   border: 3px solid #303030;
   padding: 5px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  -webkit-box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
 }
 
 .cards .item:hover .material {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -310,11 +321,13 @@ section {
   width: 100%;
   height: 100%;
   z-index: -1;
-  filter: opacity(0.55);
+  -webkit-filter: opacity(0.55);
+          filter: opacity(0.55);
 }
 
 .cards .item img:hover {
-  filter: opacity(1);
+  -webkit-filter: opacity(1);
+          filter: opacity(1);
 }
 
 .material {
@@ -328,7 +341,7 @@ section {
   font-size: 10;
   display: none;
   z-index: 2;
-  font-family: "Maitree", serif;
+  font-family: 'Maitree', serif;
 }
 
 .price {
@@ -343,7 +356,7 @@ section {
   color: white;
   font-size: 10;
   z-index: 2;
-  font-family: "Amiri", serif;
+  font-family: 'Amiri', serif;
 }
 
 .arrow i {
@@ -353,7 +366,8 @@ section {
   z-index: 5;
   font-size: 35px;
   color: #303030;
-  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  -webkit-box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
 header a {
@@ -363,19 +377,11 @@ header a {
   z-index: 5;
   font-size: 30px;
   color: #303030;
-  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  -webkit-box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+          box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   border-radius: 50%;
   background-color: #fdfcfb;
   padding: 6px;
-}
-
-.genre {
-  display: flex;
-  flex-direction: row;
-  padding-left: 0 5px;
-  margin-left: 250px;
-  gap: 10px;
-  margin-top: 10px;
 }
 
 section div {
@@ -527,4 +533,3 @@ textarea {
   -webkit-box-shadow: 1px 1px 1px #999;
           box-shadow: 1px 1px 1px #999;
 }
-/*# sourceMappingURL=main.css.map */
