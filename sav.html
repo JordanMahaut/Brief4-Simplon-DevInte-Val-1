@@ -74,7 +74,7 @@
         </div>
     </header>
 
-    <section class="contact">
+    <article class="contact">
         <div class="form">
             <h2>SAV :</h2>
 
@@ -88,39 +88,39 @@
                     <label>Autre</label>
                 </div>
 
-                <div>
+                <div class="Info">
                     <label>Nom :</label>
-                    <input type="text" placeholder="Depitre" required>
+                    <input type="text" placeholder="Depitre" required >
                     <label>Prénom :</label>
                     <input type="text" placeholder="Jean-Kevin" required>
                 </div>
 
-                <div>
+                <div class="Adresse">
                     <label>Adresse :</label>
                     <input type="text" placeholder="Votre adresse postale" size="50" required>
                 </div>
 
-                <div>
+                <div class="Ville">
                     <label>Ville :</label>
                     <input type="text" placeholder="Sainte-Vierge" required>
                     <label>Code postale :</label>
                     <input type="text" placeholder="Exemple : 59600" pattern="[0-9]{5}" required>
                 </div>
 
-                <div>
+                <div class="Tel">
                     <label>Numéro de téléphone :</label>
                     <input type="tel" pattern="[0-9]{2}.[0-9]{2}.[0-9]{2}.[0-9]{2}.[0-9]{2}" placeholder="00.00.00.00.00">
                 </div>
 
-                <div>
+                <div class="Mail">
                     <label>Adresse mail :</label>
                     <input type="email" pattern=".+@globex\.com" size="30" placeholder="JK.Depitre@Sainte-Vierge.com" required>
                 </div>
 
-                <div>
+                <div class="Msg">
                     <label id="story">Message :</label>
 
-                    <textarea name="story" rows="5" cols="33">
+                    <textarea id="story" name="story" rows="5" cols="33">
                     Ecrivez votre message :
                     </textarea>
                 </div>
@@ -130,7 +130,7 @@
                 </div>
             </form>
         </div>
-    </section>
+    </article>
 </body>
 
 </html>
