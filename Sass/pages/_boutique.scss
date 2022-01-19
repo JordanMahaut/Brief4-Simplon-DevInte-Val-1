@@ -1,22 +1,21 @@
-section{
+section {
     width: 70%;
     max-width: 100%;
-    margin-left:270px;
+    margin-left: 270px;
     margin-bottom: 7%;
     margin-top: 4%;
     z-index: 1;
-  
-  }
-  
-  
-  .cards{
+}
+
+.cards {
     width: 100%;
     height: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
-  }
-  .cards .item{
+}
+
+.cards .item {
     position: relative;
     display: flex;
     width: 100%;
@@ -24,25 +23,26 @@ section{
     flex-direction: column;
     border: 3px solid #303030;
     padding: 5px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
-  }
-  
-  .cards .item:hover .material{
-    display:flex;
-  }
-  
-  .cards .item img{
+}
+
+.cards .item:hover .material {
+    display: flex;
+}
+
+.cards .item img {
     width: 100%;
     height: 100%;
     z-index: -1;
     filter: opacity(0.55);
-  } 
-  .cards .item img:hover{
+}
+
+.cards .item img:hover {
     filter: opacity(1);
-  }
-  
-  .material{
+}
+
+.material {
     position: absolute;
     background-color: rgb(48, 48, 48);
     bottom: -1.5%;
@@ -54,9 +54,9 @@ section{
     display: none;
     z-index: 2;
     font-family: 'Maitree', serif;
-  }
-  
-  .price{
+}
+
+.price {
     position: absolute;
     background-color: rgb(48, 48, 48);
     top: 0;
@@ -69,19 +69,19 @@ section{
     font-size: 10;
     z-index: 2;
     font-family: 'Amiri', serif;
-  }
+}
 
-  .arrow i{
+.arrow i {
     position: fixed;
     right: 60px;
     top: 850px;
     z-index: 5;
     font-size: 35px;
     color: #303030;
-  
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-  }
-  header a {
+    box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+header a {
     position: fixed;
     right: 50px;
     top: 30px;
@@ -92,4 +92,4 @@ section{
     border-radius: 50%;
     background-color: #fdfcfb;
     padding: 6px;
-  }
+}
