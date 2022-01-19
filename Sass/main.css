@@ -61,9 +61,9 @@ body {
 #img4 {
   height: 20px;
   width: 20px;
-  position: absolute;
-  margin-left: 1870px;
-  top: 5px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -187,8 +187,9 @@ body {
 
 @media (min-width: 500px) and (max-width: 890px) {
   #img4 {
-    margin-left: 450px;
-    top: 1%;
+    position: fixed;
+    top: 10px;
+    right: 10px;
   }
 }
 header p {
