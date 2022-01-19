@@ -294,7 +294,9 @@ html {
 .grid-item p {
   background-color: white;
   color: black;
-  text-align: center;
+  position: absolute;
+  top: 25%;
+  right: 40%;
   font-size: 20px;
   margin: auto;
 }
