@@ -1,5 +1,7 @@
 .article_propos{
         text-align: center;
+        max-width: 1200px;
+        margin: 30px auto;
 
             h1{
                 font-size: 60px;
@@ -13,10 +15,6 @@
                     p{
                         margin-top: 30px;
                     }
-}
-
-.article_apropos{
-    margin-bottom: 300px;
 }
 
 @media (min-width: 320px) and (max-width: 500px){
