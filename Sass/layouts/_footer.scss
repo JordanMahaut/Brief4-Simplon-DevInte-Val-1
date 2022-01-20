@@ -35,3 +35,18 @@ footer{
         padding: 0 5px;
     }
 }
+
+@media (min-width: 500px) and (max-width: 890px){
+    footer{
+        display: flex;
+        width: 99%;
+        margin: 0 auto;
+        flex-direction: column;
+        margin-top: 100px;
+        justify-content:space-between;
+        align-items: center;
+        border: 3px solid black;
+        background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+        box-shadow: 10px -10px 5px rgba(0, 0, 0, 0.3);
+    }
+}
