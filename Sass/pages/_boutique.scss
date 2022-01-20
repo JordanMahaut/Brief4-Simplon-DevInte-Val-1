@@ -37,6 +37,7 @@
     height: 100%;
     z-index: -1;
     filter: opacity(0.55);
+    transition: 2s;
   } 
 
   .cards .item img:hover{
