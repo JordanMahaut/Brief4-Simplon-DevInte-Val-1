@@ -2,7 +2,7 @@
     width: 70%;
     max-width: 100%;
     margin-left: 190px;
-    margin-bottom: 7%;
+    margin-bottom:7%;
     margin-top: 4%;
     z-index: 1;
   
@@ -23,7 +23,7 @@
     height: 100%;
     flex-direction: column;
     border: 3px solid #303030;
-    padding: 5px;
+    padding:5px;
     box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
 }
@@ -47,12 +47,12 @@
 .material {
     position: absolute;
     background-color: rgb(48, 48, 48);
-    bottom: -1.5%;
+    bottom:-1.5%;
     left: 0.5%;
-    padding: 8px;
-    font-size: 14px;
+    padding:8px;
+    font-size:14px;
     color: white;
-    font-size: 10;
+    font-size:10px;
     display: none;
     z-index: 2;
     font-family: 'Maitree', serif;
@@ -63,12 +63,12 @@
     background-color: rgb(48, 48, 48);
     top: 0;
     right: 0;
-    padding: 8px;
+    padding:8px;
     border-radius: 5px;
     margin: 3%;
-    font-size: 18px;
+    font-size:18px;
     color: white;
-    font-size: 10px;
+    font-size:10px;
     z-index: 2;
     font-family: 'Amiri', serif;
 }
@@ -78,7 +78,7 @@
     right: 60px;
     top: 500px;
     z-index: 5;
-    font-size: 35px;
+    font-size:35px;
     color: #303030;
   
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
